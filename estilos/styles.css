@@ -1,0 +1,50 @@
+.paginaPrincipal {
+  width: 100%;
+  height: 715px;
+  margin-right: 0%;
+  background-image: url("../imagen/imagen-tc-scaled-e1610632729734.jpg");
+  background-position: center;
+  background-size: 270vh;
+  background-repeat: no-repeat;
+}
+.paginaPrincipal .fondo__transparente {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 715px;
+  background-color: rgba(15, 15, 15, 0.562);
+  color: rgb(250, 249, 249);
+}
+.paginaPrincipal .fondo__transparente .contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+.paginaPrincipal .fondo__transparente .contenedor h1 {
+  font-weight: bold;
+  font-size: 80px;
+}
+.paginaPrincipal .fondo__transparente .contenedor h3 {
+  font-size: 22px;
+}
+.paginaPrincipal .fondo__transparente .contenedor .boton_he {
+  padding-top: 30px;
+}
+.paginaPrincipal .fondo__transparente .contenedor .boton_he .boton_hero {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: rgb(32, 28, 19);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.paginaPrincipal .fondo__transparente .contenedor .boton_he .boton_hero:hover {
+  color: rgb(8, 8, 8);
+  background-color: #ffebcd;
+}/*# sourceMappingURL=styles.css.map */
