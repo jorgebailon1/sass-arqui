@@ -33,7 +33,7 @@
 .paginaPrincipal .fondo__transparente .contenedor .boton_he {
   padding-top: 30px;
 }
-.paginaPrincipal .fondo__transparente .contenedor .boton_he .boton_hero {
+.paginaPrincipal .fondo__transparente .contenedor .boton_he .boton__hero {
   text-decoration: none;
   font-size: 20px;
   padding: 20px 30px;
@@ -44,7 +44,7 @@
   font-weight: bold;
   transition: all 0.2s ease-in-out;
 }
-.paginaPrincipal .fondo__transparente .contenedor .boton_he .boton_hero:hover {
+.paginaPrincipal .fondo__transparente .contenedor .boton_he .boton__hero:hover {
   color: rgb(8, 8, 8);
   background-color: #ffebcd;
 }/*# sourceMappingURL=styles.css.map */
