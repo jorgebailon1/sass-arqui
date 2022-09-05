@@ -1,0 +1,32 @@
+/*PASO*/
+.container{
+    .fo__transparente{
+        h1{
+            color: secundaryColor;
+        }
+        .cards{
+            display: $displayFlex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: $textAling;
+            align-items: center;
+            .imguno{
+                background-color: rgb(243, 214, 177);
+                margin-top: 20px;
+                img{
+                    width: 300px;
+                    border-radius: 60px;
+                }
+                h4{
+                    padding: 0;
+                    text-align: $textAling;
+                }
+                h5{
+                    padding: 0;
+                    font-size: 18px;
+                    color: secundaryColor;
+                }
+            }
+        }
+    }
+}

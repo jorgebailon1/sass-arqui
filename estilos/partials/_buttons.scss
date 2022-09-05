@@ -1,0 +1,8 @@
+.btn{
+    @extend %botones;
+
+}
+.btn:hover{
+    background-color: rgb(174, 180, 136);
+    color: black;
+}

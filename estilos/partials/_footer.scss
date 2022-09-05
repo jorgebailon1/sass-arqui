@@ -1,0 +1,32 @@
+/*FOOTER*/
+.footer{
+    margin-top: 30px;
+    background-color: #201f1e;
+    .redes{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin: 0 0 20px;
+        a{
+            color: $primaryColor;
+            padding: 10px;
+            font-size: 18px;
+            letter-spacing: 4px;
+        }
+    }
+    .conteiner{
+        p{
+            color: map-get($estilos, colorPrimario);
+            justify-content: map-get($estilos , justifyContent );
+            display: map-get($estilos, displayFlex );
+            margin: 0;
+        }
+        h4{
+            color: map-get($estilos, colorPrimario);
+            justify-content: map-get($estilos , justifyContent );
+            display: map-get($estilos, displayFlex );
+            margin: 0 0 20px;
+            font-size: 30px;
+    }
+    }
+}

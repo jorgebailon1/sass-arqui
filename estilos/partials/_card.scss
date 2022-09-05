@@ -1,0 +1,8 @@
+.cards{
+    @include cards($borderColor:rgb(73, 212, 69),
+    $bgColor:rgb(179, 146, 146),$textColor:rgb(154, 168, 154));
+}
+.madero{
+    @include cards($borderColor:rgb(85, 107, 84),
+    $bgColor:rgb(179, 146, 146),$textColor:rgb(154, 168, 154));
+}

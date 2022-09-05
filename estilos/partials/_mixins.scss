@@ -1,0 +1,6 @@
+@mixin cards($bgColor, $borderColor, $textColor){
+    background-color: $bgColor;
+    border-bottom: 03px solid $borderColor;
+    color: $textColor;
+}
+/*aplicado en .card y .madero para probar*/
